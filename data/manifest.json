@@ -1,0 +1,256 @@
+{
+ "slug": "sonnenuhren",
+ "facts": {
+  "repo_base": {
+   "value": "https://lettre.ngrok.dev/sundials/",
+   "source": "SUNDIALS_REPO_BASE (default: lettre.ngrok.dev/sundials/)"
+  },
+  "lit_base": {
+   "value": "https://lettre.ngrok.dev/sundials-literature/",
+   "source": "SUNDIALS_LIT_BASE"
+  },
+  "anim_base": {
+   "value": "https://lettre.ngrok.dev/ancient-sundial/",
+   "source": "SUNDIALS_ANIM_BASE"
+  },
+  "sd_catalogue": {
+   "value": 782,
+   "source": "BSDP_objects.cite.json (repository catalogue): Objekte"
+  },
+  "sd_records": {
+   "value": 243,
+   "source": "BSDP_measurements.json (repository export): n_objects"
+  },
+  "sd_graded": {
+   "value": 113,
+   "source": "BSDP_measurements.json (repository export): grade nicht leer"
+  },
+  "sd_ungraded": {
+   "value": 130,
+   "source": "BSDP_measurements.json (repository export): Datensatz ohne grade"
+  },
+  "sd_catalogue_objs": {
+   "value": 694,
+   "source": "BSDP_objects.cite.json (repository catalogue): verschiedene obj_id (mehrere Dialfaces können zu einem Objekt gehören)"
+  },
+  "sd_records_cat": {
+   "value": 234,
+   "source": "BSDP_measurements.json (repository export): Datensätze, deren ObjID im Katalog steht"
+  },
+  "sd_records_out": {
+   "value": 9,
+   "source": "BSDP_measurements.json (repository export): Datensätze, deren ObjID nicht im Katalog steht"
+  },
+  "sd_norecord": {
+   "value": 460,
+   "source": "BSDP_objects.cite.json (repository catalogue) (verschiedene obj_id) minus Datensätze im Katalog"
+  },
+  "sd_phi_30_45": {
+   "value": 44,
+   "source": "BSDP_measurements.json (repository export): phi von 30 bis unter 45 Grad"
+  },
+  "sd_phi_lt25": {
+   "value": 6,
+   "source": "BSDP_measurements.json (repository export): phi unter 25 Grad"
+  },
+  "sd_phi_lt25_cons": {
+   "value": 0,
+   "source": "BSDP_measurements.json (repository export): phi unter 25 Grad, Konsens und nicht vorläufig"
+  },
+  "sd_grade_a": {
+   "value": 16,
+   "source": "BSDP_measurements.json (repository export): grade"
+  },
+  "sd_grade_b": {
+   "value": 89,
+   "source": "BSDP_measurements.json (repository export): grade"
+  },
+  "sd_grade_c": {
+   "value": 8,
+   "source": "BSDP_measurements.json (repository export): grade"
+  },
+  "sd_phi_n": {
+   "value": 72,
+   "source": "BSDP_measurements.json (repository export): phi"
+  },
+  "sd_phi_cons": {
+   "value": 58,
+   "source": "BSDP_measurements.json (repository export): phi.basis = consensus of witnesses"
+  },
+  "sd_phi_single": {
+   "value": 14,
+   "source": "BSDP_measurements.json (repository export): phi.basis = single witness"
+  },
+  "sd_phi_prov": {
+   "value": 28,
+   "source": "BSDP_measurements.json (repository export): phi vorhanden und cone_half_angle_withheld (Kegelrest über 2 mm)"
+  },
+  "sd_angle_n": {
+   "value": 57,
+   "source": "BSDP_measurements.json (repository export): cone_half_angle_deg"
+  },
+  "sd_angle_withheld": {
+   "value": 34,
+   "source": "BSDP_measurements.json (repository export): cone_half_angle_withheld"
+  },
+  "sd_cone": {
+   "value": 80,
+   "source": "BSDP_measurements.json (repository export): dial_type = cone"
+  },
+  "sd_cone_dec": {
+   "value": 52,
+   "source": "BSDP_measurements.json (repository export): dial_type = cone, entscheidend"
+  },
+  "sd_sphere": {
+   "value": 28,
+   "source": "BSDP_measurements.json (repository export): dial_type = sphere"
+  },
+  "sd_sphere_dec": {
+   "value": 23,
+   "source": "BSDP_measurements.json (repository export): dial_type = sphere, entscheidend"
+  },
+  "sd_cyl": {
+   "value": 5,
+   "source": "BSDP_measurements.json (repository export): dial_type = cylinder"
+  },
+  "sd_dec": {
+   "value": 75,
+   "source": "BSDP_measurements.json (repository export): entscheidender Flächentyp"
+  },
+  "sd_hour_lines": {
+   "value": 984,
+   "source": "BSDP_measurements.json (repository export): n_hour_lines"
+  },
+  "sd_day_lines": {
+   "value": 243,
+   "source": "BSDP_measurements.json (repository export): n_day_lines"
+  },
+  "sd_klima_n": {
+   "value": 58,
+   "source": "BSDP_measurements.json (repository export): klima"
+  },
+  "sd_pipeline_records": {
+   "value": 113,
+   "source": "ai-sundial3d/db/sundials.duckdb: object.grade nicht leer (mit Modellvarianten)"
+  },
+  "sd_astro_n": {
+   "value": 72,
+   "source": "BSDP_measurements.json (repository export): astro"
+  },
+  "sd_eps_ref": {
+   "value": 23.7096,
+   "source": "quantity.basis: eps_ref=23.7096 from Skyfield at year -100 (astro_picture.py)"
+  },
+  "sd_phi_18": {
+   "value": 41.45,
+   "source": "BSDP_measurements.json (repository export): object 18 phi"
+  },
+  "sd_phi_sd_18": {
+   "value": 0.37,
+   "source": "BSDP_measurements.json (repository export): object 18 phi.sigma"
+  },
+  "sd_phi_126": {
+   "value": 37.97,
+   "source": "BSDP_measurements.json (repository export): object 126 phi"
+  },
+  "sd_phi_sd_126": {
+   "value": 0.8,
+   "source": "BSDP_measurements.json (repository export): object 126 phi.sigma"
+  },
+  "sd_phi_128": {
+   "value": 43.61,
+   "source": "BSDP_measurements.json (repository export): object 128 phi"
+  },
+  "sd_phi_sd_128": {
+   "value": 0.54,
+   "source": "BSDP_measurements.json (repository export): object 128 phi.sigma"
+  },
+  "sd_rms_18": {
+   "value": 8.87,
+   "source": "BSDP_measurements.json (repository export): object 18 pipeline_cone_rms_mm"
+  },
+  "sd_rms_ctrl_min": {
+   "value": 0.39,
+   "source": "BSDP_measurements.json (repository export): pipeline_cone_rms_mm der Kontrollkegel 126, 108, 117, 136"
+  },
+  "sd_rms_ctrl_max": {
+   "value": 0.65,
+   "source": "BSDP_measurements.json (repository export): pipeline_cone_rms_mm der Kontrollkegel 126, 108, 117, 136"
+  },
+  "sd_angle_126": {
+   "value": 34.3,
+   "source": "BSDP_measurements.json (repository export): object 126 cone_half_angle_deg"
+  },
+  "cat_cone": {
+   "value": 240,
+   "source": "BSDP_objects.cite.json (repository catalogue): type_obj.category = Cone"
+  },
+  "cat_sphere": {
+   "value": 213,
+   "source": "BSDP_objects.cite.json (repository catalogue): type_obj.category = Sphere"
+  },
+  "cat_plane": {
+   "value": 121,
+   "source": "BSDP_objects.cite.json (repository catalogue): type_obj.category = Plane"
+  },
+  "cat_cylinder": {
+   "value": 12,
+   "source": "BSDP_objects.cite.json (repository catalogue): type_obj.category = Cylinder"
+  },
+  "cat_unknown": {
+   "value": 194,
+   "source": "BSDP_objects.cite.json (repository catalogue): type_obj.category = Unknown"
+  },
+  "cat_other": {
+   "value": 2,
+   "source": "BSDP_objects.cite.json (repository catalogue): type_obj.category = Convex, Curved"
+  },
+  "sd_sites": {
+   "value": 403,
+   "source": "BSDP_objects.cite.json (repository catalogue): site.latitude/longitude vorhanden und nicht (0, 0)"
+  },
+  "sd_sites_missing": {
+   "value": 379,
+   "source": "BSDP_objects.cite.json (repository catalogue): Objekte ohne Koordinate des Ortes"
+  },
+  "sd_lat_min": {
+   "value": 16.3,
+   "source": "BSDP_objects.cite.json (repository catalogue): kleinste Breite"
+  },
+  "sd_lat_max": {
+   "value": 51.0,
+   "source": "BSDP_objects.cite.json (repository catalogue): größte Breite"
+  },
+  "sd_places": {
+   "value": 178,
+   "source": "BSDP_objects.cite.json (repository catalogue): verschiedene site.name"
+  },
+  "sd_wit_126_n": {
+   "value": 7,
+   "source": "ai-sundial3d/db/sundials.duckdb: quantity phi, ObjID 126, einzelne Zeugen"
+  },
+  "sd_wit_126_members": {
+   "value": 4,
+   "source": "ai-sundial3d/db/sundials.duckdb: consensus.basis von ObjID 126"
+  },
+  "lit_docs": {
+   "value": 7,
+   "source": "PDAI sundial: Ordner mit pdai-config.json"
+  },
+  "lit_pages": {
+   "value": 1066,
+   "source": "PDAI sundial: Seitenordner"
+  },
+  "paper_n": {
+   "value": 7,
+   "source": "catalog.yml: Artikel mit supplement"
+  },
+  "paper_pages": {
+   "value": 53,
+   "source": "data/arxiv/papers.json: Seiten der PDF (pdfinfo)"
+  }
+ },
+ "notes": [
+  "Schaldach2012 hat in pdai-config.json kein Jahr; Bandtitel Schaldach 2021 und 2022 stammen aus den Titelseiten (Seite 4) der Digitalisate, nicht aus dem Katalog."
+ ]
+}
